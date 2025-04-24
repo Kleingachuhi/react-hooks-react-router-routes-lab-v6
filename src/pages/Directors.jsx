@@ -13,19 +13,15 @@ function Directors() {
   return (
     <>
       <header>
-        {/* What component should go here? */}
         <NavBar />
       </header>
       <main>
-        {/* Director info here! */}
         <h1>Directors Page</h1>
         <div>
-          {/* Render each director's information */}
           {directors.map((director) => (
             <article key={director.id}>
               <h2>{director.name}</h2>
               <ul>
-                {/* Render list of director's movies */}
                 {director.movies.map((movie, index) => (
                   <li key={index}>{movie}</li>
                 ))}

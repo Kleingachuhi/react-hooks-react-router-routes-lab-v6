@@ -13,11 +13,9 @@ function Actors() {
   return (
     <>
       <header>
-        {/* What component should go here? */}
         <NavBar />
       </header>
       <main>
-        {/* Actor info here! */}
         <h1>Actors Page</h1>
         {actors.map(actor => (
           <article key={actor.id}>

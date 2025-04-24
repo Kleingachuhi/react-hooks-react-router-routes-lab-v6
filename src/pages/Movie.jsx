@@ -23,11 +23,9 @@ function Movie() {
   return (
     <>
       <header>
-        {/* What component should go here? */}
         <NavBar />
       </header>
       <main>
-        {/* Movie info here! */}
         <h1>{title}</h1>
         <p>Time: {time}</p>
         <div>

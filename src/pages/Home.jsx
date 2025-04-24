@@ -15,11 +15,9 @@ function Home() {
   return (
     <>
       <header>
-        {/* What component should go here? */}
         <NavBar />
       </header>
       <main>
-        {/* Info goes here! */}
         <h1>Home Page</h1>
         <section>
           {movies.map(movie => (
